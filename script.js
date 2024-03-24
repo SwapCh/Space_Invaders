@@ -158,6 +158,11 @@ rightkey[0].addEventListener("click", ()=>{
     moveshooter({key:"ArrowRight"});
 })
 
+const restart=document.getElementsByClassName("restart");
+
+restart[0].addEventListener("click", ()=>{
+    location.reload()
+})
 
 
 
